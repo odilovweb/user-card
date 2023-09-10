@@ -1,0 +1,16 @@
+.users-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+.users-card {
+  margin-bottom: 20px;
+}
+.user-img {
+  object-fit: cover;
+  width: 140px;
+  height: 140px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+}
